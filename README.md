@@ -1,112 +1,168 @@
-# Gemma 4 MLX Fixes
+# Gemma 4 MLX — PLE-Safe Quantization
 
-Fixes for running Google Gemma 4 (E4B/E2B) on Apple Silicon via [mlx-vlm](https://github.com/Blaizzy/mlx-vlm).
+Working MLX quantized weights for the full Google Gemma 4 family on Apple Silicon.
 
-mlx-vlm added Gemma 4 support in PR #890 (2026-04-02), but has several issues that prevent practical use.
+**All existing MLX quantized Gemma 4 models on HuggingFace (mlx-community, unsloth) are broken.** This repo provides the first working quantized versions with full trimodal (vision + audio + text) validation.
 
-## Issues Found & Fixed
+## Why Existing Quantizations Are Broken
 
-### 1. ScaledLinear quantization crash
+| Source | Issue | Symptom |
+|---|---|---|
+| mlx-community 4bit/8bit | PLE layers quantized | `ionoxffionoxff...` garbage output |
+| unsloth 4bit | 963 multimodal weights stripped | Model fails to load |
 
-**Problem**: `ScaledLinear` inherits `nn.Module` instead of `nn.Linear`, so `nn.quantize()` raises `Unable to quantize model of type ScaledLinear`.
+**Root cause:** Gemma 4 uses a novel **PLE (Per-Layer Embeddings)** architecture with `ScaledLinear` layers that multiply outputs by a scalar. Standard quantization introduces error in these layers, and the scalar multiplication amplifies it catastrophically.
 
-**Fix**: Change inheritance to `nn.Linear` in `language.py`.
+## PLE-Safe Quantization Strategy
 
-```python
-# Before (broken)
-class ScaledLinear(nn.Module):
-    def __init__(self, in_features, out_features, scalar):
-        super().__init__()
-        self.weight = mx.zeros((out_features, in_features))
+We only quantize the large `nn.Linear` and `SwitchLinear` (MoE expert) layers in the decoder. Everything else stays in bf16:
 
-# After (fixed)
-class ScaledLinear(nn.Linear):
-    def __init__(self, in_features, out_features, scalar):
-        super().__init__(in_features, out_features, bias=False)
+| Quantized (4-bit or 8-bit) | Kept in bf16 |
+|---|---|
+| Attention projections (q/k/v/o_proj) | ScaledEmbedding (embed_tokens) |
+| MLP layers (gate/up/down_proj) | ScaledLinear (PLE pathway) |
+| MoE expert layers (SwitchLinear) | Per-layer embeddings (per_layer_*) |
+| | Vision encoder |
+| | Audio encoder (E2B/E4B) |
+| | All norms and scalars |
+
+## Available Models
+
+| Model | 4-bit | 8-bit | bf16 | Audio |
+|---|---|---|---|---|
+| **E2B** (2.3B params) | 7.6 GB | 8.5 GB | 10.2 GB | ✅ |
+| **E4B** (4.5B params) | 10.3 GB | 12.3 GB | 16.0 GB | ✅ |
+| **26B-A4B** (26B MoE) | 16.4 GB | 28.6 GB | 51.6 GB | — |
+| **31B** (31B dense) | 20.4 GB | 35.1 GB | 62.5 GB | — |
+
+## Validation Results
+
+All 12 variants tested on: 10 images (caption), 5 speech samples (transcription), 3 languages (chat).
+
+| Model | Precision | Vision (10) | Audio (5) | Chat (3) | Pass |
+|---|---|---|---|---|---|
+| E2B | 4-bit | 10/10 | 5/5 | 3/3 | ✅ |
+| E2B | 8-bit | 10/10 | 5/5 | 3/3 | ✅ |
+| E2B | bf16 | 10/10 | 5/5 | 3/3 | ✅ |
+| E4B | 4-bit | 10/10 | 5/5 | 3/3 | ✅ |
+| E4B | 8-bit | 10/10 | 5/5 | 3/3 | ✅ |
+| E4B | bf16 | 10/10 | 5/5 | 3/3 | ✅ |
+| 26B-A4B | 4-bit | 10/10 | N/A | 3/3 | ✅ |
+| 26B-A4B | 8-bit | 10/10 | N/A | 3/3 | ✅ |
+| 26B-A4B | bf16 | 10/10 | N/A | 3/3 | ✅ |
+| 31B | 4-bit | 10/10 | N/A | 3/3 | ✅ |
+| 31B | 8-bit | 10/10 | N/A | 3/3 | ✅ |
+| 31B | bf16 | 10/10 | N/A | 3/3 | ✅ |
+
+### Audio Test Sources
+
+| File | Source | Type |
+|---|---|---|
+| obama_30s.wav | [HF hf-internal-testing](https://huggingface.co/datasets/hf-internal-testing/dummy-audio-samples) | Real human speech (Obama farewell address) |
+| rickroll_30s.wav | YouTube (Rick Astley - Never Gonna Give You Up) | Real music + vocals |
+| en_greeting.wav | macOS TTS (`say` command) | Synthetic English |
+| en_numbers.wav | macOS TTS (`say` command) | Synthetic English |
+| zh_greeting.wav | macOS TTS (`say -v Meijia`) | Synthetic Mandarin |
+| ja_greeting.wav | macOS TTS (`say -v Kyoko`) | Synthetic Japanese |
+
+> **Note on TTS samples:** The ZH/JA speech tests use macOS synthesized audio, not real human recordings. We include them to verify the audio encoder processes non-English input correctly after quantization. The key comparison is that **quantized models produce identical transcriptions to bf16**, confirming zero quality loss in the audio pathway.
+
+> **Note on music:** Gemma 4's audio encoder is trained on speech only. Music recognition (tested with 10 songs including Rick Astley, Queen, Adele) scores 0/10 on **all variants including bf16**. This is a model limitation, not a quantization issue.
+
+## Usage
+
+**Prerequisite:** Apply the ScaledLinear fix to mlx-vlm (required until [PR is merged upstream](https://github.com/Blaizzy/mlx-vlm)):
+
+```bash
+pip install git+https://github.com/Blaizzy/mlx-vlm.git@main
+
+# Apply fix
+git clone https://git.lcn.tw:33333/felix/mlx_gemma4.git
+cp mlx_gemma4/mlx_vlm_patches/models/gemma4/language.py \
+   $(python -c "import mlx_vlm; print(mlx_vlm.__path__[0])")/models/gemma4/
 ```
 
-### 2. Chat template not applied by generate()
+**Important:** You must manually apply the chat template. `mlx_vlm.generate()` does not do this automatically for Gemma 4.
 
-**Problem**: `mlx_vlm.generate()` passes raw prompt text directly to the tokenizer without applying the model's chat template. Gemma 4 requires its specific template (`<bos><|turn>user\n...<turn|>\n<|turn>model\n`), so raw text produces garbage output.
-
-**Workaround**: Manually apply chat template before calling generate:
+### Vision (Image Captioning)
 
 ```python
 from mlx_vlm import load, generate
 
-model, processor = load("google/gemma-4-E4B-it")
+model, processor = load("flcl/gemma-4-E4B-it-MLX-4bit")
 tokenizer = processor.tokenizer
 
 messages = [{"role": "user", "content": [
     {"type": "image", "url": "photo.jpg"},
-    {"type": "text", "text": "Describe this image."},
+    {"type": "text", "text": "Describe this image in detail."},
 ]}]
-prompt = tokenizer.apply_chat_template(
-    messages, add_generation_prompt=True, tokenize=False
-)
+prompt = tokenizer.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)
 out = generate(model, processor, prompt, ["photo.jpg"],
     max_tokens=200, repetition_penalty=1.2, temperature=0.7)
+print(out.text)
 ```
 
-### 3. 4-bit quantization quality collapse
-
-**Problem**: Even with the ScaledLinear fix, 4-bit quantized Gemma 4 produces incoherent output. The PLE (Per-Layer Embeddings) architecture is highly sensitive to quantization — the `scalar` multiplier in ScaledLinear amplifies quantization error.
-
-**Status**: Unresolved. bf16 works correctly (44 tok/s, 16.8GB on M4 Max). 4-bit and 8-bit both produce garbage. Likely needs mixed-precision quantization that keeps PLE-related layers in higher precision.
-
-**Comparison with llama.cpp**: GGUF Q4_K_M works fine (77 tok/s, 6.3GB) because llama.cpp uses a different quantization strategy that handles the scaling internally.
-
-### 4. Third-party quantized models missing multimodal weights
-
-**Problem**: Quantized models from unsloth (`unsloth/gemma-4-E4B-it-UD-MLX-4bit`) are missing 963 parameters — the entire `audio_tower`, `vision_tower`, `embed_audio`, and `embed_vision` weights were stripped during quantization.
-
-**Workaround**: Quantize from the original `google/gemma-4-E4B-it` weights yourself:
+### Audio (Speech Transcription)
 
 ```python
-from mlx_vlm import convert
-convert(
-    hf_path="google/gemma-4-E4B-it",
-    mlx_path="./gemma4-e4b-mlx-4bit",
-    quantize=True, q_bits=4, q_group_size=64,
-)
+messages = [{"role": "user", "content": [
+    {"type": "audio", "url": "speech.wav"},
+    {"type": "text", "text": "Transcribe this speech."},
+]}]
+prompt = tokenizer.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)
+out = generate(model, processor, prompt, audio=["speech.wav"],
+    max_tokens=200, repetition_penalty=1.2, temperature=0.1)
+print(out.text)
 ```
 
-This preserves all multimodal weights but still suffers from issue #3.
+### Text Chat
 
-## Working Configuration (bf16)
+```python
+messages = [{"role": "user", "content": "What is the capital of France?"}]
+prompt = tokenizer.apply_chat_template(messages, add_generation_prompt=True, tokenize=False)
+out = generate(model, processor, prompt, max_tokens=100, temperature=0.0)
+print(out.text)
+```
+
+## Bugs Found in mlx-vlm
+
+| # | Bug | Impact | Fix |
+|---|---|---|---|
+| 1 | `ScaledLinear` inherits `nn.Module` instead of `nn.Linear` | `nn.quantize()` cannot discover or quantize these layers | Change to `ScaledLinear(nn.Linear)` |
+| 2 | Standard quantization quantizes PLE layers | 4-bit/8-bit output is garbage | PLE-safe `class_predicate` that skips PLE/vision/audio |
+| 3 | `processor.save_pretrained()` strips `feature_extractor` from config | Audio input silently dropped (no error, model just says "no audio provided") | Copy `processor_config.json` from source model |
+| 4 | `SwitchLinear` (MoE experts) not included in quantization | 26B-A4B: 49 GB instead of 16 GB | Check `hasattr(module, 'to_quantized')` in addition to `isinstance(nn.Linear)` |
+
+## Convert From Source
+
+To reproduce the quantization from original Google weights:
 
 ```bash
-pip install git+https://github.com/Blaizzy/mlx-vlm.git@main
-python test_gemma4.py
+git clone https://git.lcn.tw:33333/felix/mlx_gemma4.git
+cd mlx_gemma4
+
+# Single model
+python convert_gemma4.py E4B 4     # E4B 4-bit
+python convert_gemma4.py E2B 8     # E2B 8-bit
+python convert_gemma4.py 31B bf16  # 31B bf16
+
+# All 12 variants
+python convert_gemma4.py all
+
+# Validate
+python validate_all.py
 ```
 
-| Metric | Value |
-|---|---|
-| Model | google/gemma-4-E4B-it (bf16) |
-| Peak memory | 16.8 GB |
-| Decode speed | 44 tok/s |
-| Prefill speed | 630 tok/s |
-| Vision | ✅ |
-| Audio | ✅ (untested) |
-| Chat template | ⚠️ Manual apply required |
+## Performance (Apple M4 Max 128GB)
 
-## Files
+Measured on E4B with 30 images:
 
-```
-mlx_vlm_patches/models/gemma4/
-├── language.py          ← ScaledLinear fix (nn.Linear inheritance)
-├── gemma4.py            ← Main model (unchanged from PR #890)
-├── vision.py            ← Vision encoder (unchanged)
-├── audio.py             ← Audio encoder (unchanged)
-├── config.py            ← Config (unchanged)
-├── processing_gemma4.py ← Processor (unchanged)
-└── audio_feature_extractor.py
-test_gemma4.py           ← Working test with manual chat template
-```
+| Variant | Caption tok/s | Chat tok/s | Peak Memory |
+|---|---|---|---|
+| 4-bit | 59 | ~90 | 11.1 GB |
+| 8-bit | 47 | ~63 | 13.1 GB |
+| bf16 | 44 | ~44 | 16.8 GB |
 
-## TODO
+## License
 
-- [ ] Fix quantization quality (mixed precision for PLE layers)
-- [ ] Auto-apply chat template in generate() for Gemma 4
-- [ ] Submit PR to mlx-vlm
-- [ ] Test audio input
+Model weights are subject to [Google's Gemma license](https://ai.google.dev/gemma/terms). Quantization scripts and fixes are MIT licensed.

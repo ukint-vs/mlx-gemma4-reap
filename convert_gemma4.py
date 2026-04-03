@@ -1,5 +1,17 @@
 #!/usr/bin/env python3
-"""Convert Gemma 4 E4B to MLX with PLE-safe quantization."""
+"""Convert Gemma 4 (E2B/E4B) to MLX with PLE-safe quantization.
+
+Fixes two mlx-vlm bugs:
+1. ScaledLinear quantization (nn.Module -> nn.Linear)
+2. processor_config.json missing audio feature_extractor after convert
+
+Usage:
+  python convert_gemma4.py E4B 4    # Gemma 4 E4B 4-bit
+  python convert_gemma4.py E4B 8    # Gemma 4 E4B 8-bit
+  python convert_gemma4.py E2B 4    # Gemma 4 E2B 4-bit
+  python convert_gemma4.py E2B 8    # Gemma 4 E2B 8-bit
+"""
+import sys, os, shutil, json
 import mlx.nn as nn
 from mlx_vlm.models.gemma4.language import ScaledLinear, ScaledEmbedding
 
@@ -11,7 +23,6 @@ _orig_quantize = nn.quantize
 
 def ple_safe_quantize(model, group_size=64, bits=4, class_predicate=None, **kwargs):
     def predicate(path, module):
-        # If upstream predicate says no, respect it
         if class_predicate and not class_predicate(path, module):
             return False
         if not isinstance(module, nn.Linear): return False
@@ -28,9 +39,27 @@ def ple_safe_quantize(model, group_size=64, bits=4, class_predicate=None, **kwar
 nn.quantize = ple_safe_quantize
 
 from mlx_vlm import convert
-import sys
+from mlx_vlm.utils import get_model_path
 
-bits = int(sys.argv[1]) if len(sys.argv) > 1 else 4
-dst = f"gemma4-e4b-mlx-{bits}bit"
-convert(hf_path="google/gemma-4-E4B-it", mlx_path=dst, quantize=True, q_bits=bits, q_group_size=64)
-print(f"Done: {dst}")
+MODELS = {
+    "E4B": "google/gemma-4-E4B-it",
+    "E2B": "google/gemma-4-E2B-it",
+}
+
+if __name__ == "__main__":
+    variant = sys.argv[1].upper() if len(sys.argv) > 1 else "E4B"
+    bits = int(sys.argv[2]) if len(sys.argv) > 2 else 4
+    hf_path = MODELS[variant]
+    dst = f"gemma4-{variant.lower()}-mlx-{bits}bit"
+
+    print(f"Converting {hf_path} -> {dst} ({bits}bit, PLE-safe)")
+    convert(hf_path=hf_path, mlx_path=dst, quantize=True, q_bits=bits, q_group_size=64)
+
+    # Fix: copy complete processor_config.json from source (mlx-vlm strips audio config)
+    src_path = get_model_path(hf_path)
+    src_proc = os.path.join(src_path, "processor_config.json")
+    if os.path.exists(src_proc):
+        shutil.copy2(src_proc, os.path.join(dst, "processor_config.json"))
+        print(f"[Fix] Copied complete processor_config.json (with audio feature_extractor)")
+
+    print(f"Done: {dst}")

@@ -1,2 +1,4 @@
 *.safetensors
 gemma4-e4b-mlx-*bit/model*.safetensors
+test_audio/*.mp3
+test_audio/*.wav

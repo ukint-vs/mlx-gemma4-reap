@@ -1,0 +1,2 @@
+*.safetensors
+gemma4-e4b-mlx-*bit/model*.safetensors

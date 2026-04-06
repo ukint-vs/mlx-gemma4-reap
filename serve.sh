@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env bash
 # Serve REAP-21B with OpenAI-compatible API
 # Usage: ./serve.sh [port]
 #
@@ -14,4 +14,10 @@ echo "Starting REAP-21B server on port $PORT..."
 echo "API: http://localhost:$PORT/v1/chat/completions"
 echo ""
 
-python3 -m mlx_vlm.server --model "$MODEL" --port "$PORT"
+# Use mlx-vlm-env if available, otherwise system python3
+PYTHON="${MLX_PYTHON:-${HOME}/mlx-vlm-env/bin/python3}"
+if [ ! -x "$PYTHON" ]; then
+    PYTHON="python3"
+fi
+
+"$PYTHON" -m mlx_vlm.server --model "$MODEL" --port "$PORT"

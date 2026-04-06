@@ -14,4 +14,4 @@ echo "Starting REAP-21B server on port $PORT..."
 echo "API: http://localhost:$PORT/v1/chat/completions"
 echo ""
 
-python -m mlx_vlm.server --model "$MODEL" --port "$PORT"
+python3 -m mlx_vlm.server --model "$MODEL" --port "$PORT"

@@ -6,3 +6,4 @@ test_audio/*.mp3
 test_audio/*.wav
 test_audio/speech/*.mp4*
 PROCESS.md
+serve.sh

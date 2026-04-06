@@ -52,7 +52,7 @@ No patching required — all fixes have been merged upstream into mlx-vlm 0.4.4+
 | Total params | ~26B | ~21B | ~19B |
 | BF16 disk | ~52 GB | ~43 GB | ~36 GB |
 | **MLX 4-bit** | **16.4 GB** | **13.9 GB** | **12.6 GB** |
-| Fits on | 24GB+ Mac | **16GB+ Mac** | **16GB+ Mac** |
+| Fits on | 24GB+ Mac | **24GB+ Mac** | **24GB+ Mac** |
 
 ## Accuracy Benchmarks
 

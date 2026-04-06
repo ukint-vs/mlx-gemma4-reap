@@ -112,7 +112,7 @@ tags:
 
 **PLE-safe** MLX 4-bit weights for [{m["hf_source"]}](https://huggingface.co/{m["hf_source"]}) on Apple Silicon.
 
-[REAP](https://arxiv.org/abs/2510.13999) (Router-weighted Expert Activation Pruning) removes {m["pruning"]} of MoE experts while keeping the same active parameters per token (8 of {m["experts"]} experts selected). Combined with PLE-safe 4-bit quantization, this model runs in **{m["size_4bit"]}** — fits on 16GB+ Macs.
+[REAP](https://arxiv.org/abs/2510.13999) (Router-weighted Expert Activation Pruning) removes {m["pruning"]} of MoE experts while keeping the same active parameters per token (8 of {m["experts"]} experts selected). Combined with PLE-safe 4-bit quantization, this model runs in **{m["size_4bit"]}** — fits on 24GB+ Macs.
 
 | | Original 26B | REAP ({m["params"]}) | **This model** |
 |---|---|---|---|
@@ -132,7 +132,7 @@ tags:
 |---|---|---|
 {bench_table(variant)}
 
-{"**Wins 5 of 8 tasks vs the original 26B-A4B 4-bit** while being 2.5 GB smaller. REAP pruning removes low-utility experts, improving reasoning quality." if variant == "REAP-21B" else "The 30% expert pruning compounds with 4-bit quantization. Note: high extraction failure rates (up to 60%) on some tasks — the model generates verbose explanations instead of single-letter answers, so true accuracy may be higher than reported. Consider the [21B variant](https://huggingface.co/" + OWNER + "/" + MODELS["REAP-21B"]["repo_name"] + ") for better accuracy."}
+{"**Outscores the original 26B on 5 of 8 tasks** (1 tie, 2 losses) despite being 2.5 GB smaller. Biggest gains: College Math +16, Abstract Algebra +16, GSM8K +12." if variant == "REAP-21B" else "The 30% expert pruning compounds with 4-bit quantization. Note: high extraction failure rates (up to 60%) on some tasks — the model generates verbose explanations instead of single-letter answers, so true accuracy may be higher than reported. Consider the [21B variant](https://huggingface.co/" + OWNER + "/" + MODELS["REAP-21B"]["repo_name"] + ") for better accuracy."}
 
 Extraction failures (unparseable responses) are counted as incorrect. {"REAP-21B: 38/350 (11%)." if variant == "REAP-21B" else "REAP-19B: 113/400 (28%)."} True accuracy may be higher. Full methodology: [GitHub](https://github.com/ukint-vs/mlx-gemma4-reap).
 

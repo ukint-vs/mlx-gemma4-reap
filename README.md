@@ -1,7 +1,7 @@
 # REAP Gemma 4 MLX — Pruned MoE on Apple Silicon
 
 > First PLE-safe MLX quantization of [REAP-pruned](https://arxiv.org/abs/2510.13999) Gemma 4 MoE models
-> **REAP-21B 4-bit (13.9 GB): smaller AND more accurate than the original 26B 4-bit (16.4 GB) on 5/8 reasoning tasks**
+> **REAP-21B 4-bit (13.9 GB) beats the original 26B 4-bit (16.4 GB) on 5 of 8 benchmarks — smaller model, better scores**
 
 ## Models
 
@@ -69,7 +69,7 @@ No patching required — all fixes have been merged upstream into mlx-vlm 0.4.4+
 | College Math | 36% | **52%** | 16% |
 | GSM8K | 64% | **76%** | 62% |
 
-**REAP-21B wins 5/8 tasks** (1 tie, 2 losses) vs the original 26B 4-bit while being 2.5 GB smaller. Biggest gains: College Math +16, Abstract Algebra +16, HS Math +14, GSM8K +12. Losses on knowledge-heavy tasks: World Religions -14, Philosophy -4.
+**REAP-21B outscores the original 26B on 5 of 8 tasks** (1 tie, 2 losses) despite being 2.5 GB smaller. Biggest gains: College Math +16, Abstract Algebra +16, HS Math +14, GSM8K +12. The two losses are knowledge-heavy tasks where removing experts hurts: World Religions -14, Philosophy -4.
 
 REAP-19B takes a bigger hit — 30% pruning + 4-bit compounds. Not recommended unless memory is the primary constraint.
 

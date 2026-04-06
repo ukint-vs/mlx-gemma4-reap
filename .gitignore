@@ -1,5 +1,8 @@
 *.safetensors
-gemma4-e4b-mlx-*bit/model*.safetensors
+gemma4-*/
+__pycache__/
+.venv/
 test_audio/*.mp3
 test_audio/*.wav
 test_audio/speech/*.mp4*
+PROCESS.md

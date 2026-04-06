@@ -1,1189 +1,153 @@
 {
-  "gemma4-26b-a4b-mlx-4bit": {
+  "gemma4-reap-19b-mlx-4bit": {
     "vision": [
       {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
+        "img": "img_01.jpg",
         "ok": true,
-        "time": 2.2,
-        "text": "A high-angle, wide shot shows a small room with white walls and grey textured surfaces. In the upper right corner of the frame, a brown and white cat sits on top of an off-white shelf. Below it is its grey litter box filled with light tan colored pebbles. In the bottom left, a white bedsheet pattern"
+        "time": 17.8,
+        "text": "A minimalist, bright blue scene features a small table holding a clear jar filled with yellow flowers and thin green stems set against an eye-catching blue wall."
       },
       {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
+        "img": "img_03.jpg",
         "ok": true,
         "time": 2.3,
-        "text": "A full-length, vertical shot shows a white and gray tabby cat with its face turned to the left as it sits on an elevated surface against a white wall. The cat has light gray and dark charcoal markings around its eyes, on the top of its head, and across its ears. The cat's nose is pink, and it has wh"
+        "text": "A breathtaking wide-angle shot captures a serene seascape where the deep, dark blue of the distant ocean transitions into vibrant turquoise waters in the foreground; a white vessel cuts through much darker swells, leaving behind a foamy, bright white wake that ripples like lace across the surface as"
       },
       {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
+        "img": "img_04.jpg",
         "ok": true,
-        "time": 1.2,
-        "text": "A close-up, high angle shot shows a wooden bowl filled with salad consisting of fresh green lettuce leaves and dark leafy greens, along with some pieces of salmon. The bowl is placed on a wooden table next to white napkins and silverware, with the light coming from above."
+        "time": 1.7,
+        "text": "A serene, ethereal landscape where towering evergreens are draped in heavy layers of fresh snow, their branches weighed down by white frost that blurs the distinction between tree and sky as they emerge from a soft, golden-hued mist."
       },
       {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.2,
-        "text": "In a dramatic and surreal scene, two cats engage in an absurd attempt at emergency repairs during a violent thunderstorm. On the left, a large, rotund black cat with bright green eyes stands on its hind legs, holding a roll of silver duct tape as if trying to patch a massive crack in a glass window."
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
+        "img": "img_05.jpg",
         "ok": true,
         "time": 1.9,
-        "text": "A medium shot from a slightly low angle shows a man and woman on the beach. On the right, a tan-skinned man with dark hair wearing a grey cap and black sunglasses looks at the camera as he holds his phone to take a selfie. On the left, an Asian woman with light skin and black hair looks at her phone"
+        "text": "In the vast expanse of a sun-drenched landscape, towering red mountains rise sharply against a clear blue sky, their weathered ridges etched with deep lines of time that descend toward distant green valleys where scattered shrubs and sparse vegetation struggle for life in the arid terrain."
       },
       {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.1,
-        "text": "A high-angle, eye-level close-up shot shows a white sign with black printed text that says \"148424 特濃雙重巧克力餅乾 DOUBLECHOCOLATECHUNK\" and a picture of two chocolate chip cookies in the lower left corner. On the right side, there is an yellow-colored tag that says \"-40\" and below it a large black text \""
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.2,
-        "text": "A vertically oriented, eye-level medium shot shows two brown paper bags with gold lettering and thin yellow borders on a stone ledge against green trees and bushes in an outdoor setting. The larger bag is positioned to the right, while a smaller one sits on its left side with a bright red box placed"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.2,
-        "text": "A vertical, high-angle shot shows a smartphone screen displaying various application icons and widgets against a dark brick wall background. At the top left, there is a large rectangular widget with a purple gradient that says \"Dormez bien\" in white text and \"Réveil 7:00 mat.\" below it. To the right"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.2,
-        "text": "A close-up, vertical shot shows a person's hand gently stroking the back of an adult tabby cat with black and white fur as it sits on a wooden table in front of a wall made of off-white tiles. The cat is facing left, its head turned away from the camera towards a white wall with rectangular tiles. T"
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
+        "img": "img_06.jpg",
         "ok": true,
         "time": 2.3,
-        "text": "A close-up shot shows a set of wooden shelves in warm peach tones, where several packages and bags are displayed. On the top shelf on the left side of the image is a set of four black bags with yellow lettering. The second shelf from top contains two large red boxes on the left and a small brown bag"
-      }
-    ],
-    "audio": [],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.1,
-        "text": "Paris"
+        "text": "To provide the most effective result, I have synthesized your text into a single cohesive caption that captures the poetic rhythm and atmospheric depth of the original imagery.\n\n**Caption:**\n\"Under a vast, golden sky mirroring the shifting tides of time, a distant cityscape recedes into the horizon "
       },
       {
-        "lang": "ZH",
+        "img": "img_07.jpg",
         "ok": true,
-        "time": 0.1,
-        "text": "巴黎"
+        "time": 2.2,
+        "text": "A dense, vibrant forest canopy captured in a macro perspective where sunlight filters through layers of emerald greenery and golden mosses, creating a textured landscape of deep greens and warm yellows."
       },
       {
-        "lang": "JA",
+        "img": "img_08.jpg",
         "ok": true,
-        "time": 0.1,
-        "text": "パリ"
-      }
-    ]
-  },
-  "gemma4-26b-a4b-mlx-8bit": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
-        "ok": true,
-        "time": 3.1,
-        "text": "A high-angle, slightly tilted shot shows a white and brown cat sitting on the edge of an elevated shelf in what appears to be a small, enclosed space like a bathroom or laundry room. Below the cat is a grey plastic litter box filled with light-colored litter, positioned on the floor next to a white "
+        "time": 1.7,
+        "text": "A dense, multi-layered forest landscape captured in varying shades of green creates a sense of deep immersion within the foliage, where sunlight filters through thick canopies and winding paths lead into a vast, verdant wilderness."
       },
       {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
+        "img": "img_09.jpg",
         "ok": true,
-        "time": 2.8,
-        "text": "A vertical, medium shot of a white and grey tabby cat sitting upright on a dark brown wooden surface against an off-white wall. The cat has large, green eyes and is looking up and to its left with a curious expression. It wears an orange collar with a small, round, light blue bead charm hanging from"
+        "time": 1.5,
+        "text": "A lone woman walks own a monolithic expanse of vibrant yellow, her dark silhouette creating a sharp contrast against the textured vertical lines of the massive, monochromatic wall."
       },
       {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 1.4,
-        "text": "A close-up, high-angle shot shows a wooden bowl filled with a fresh salad consisting of large leaves of light green lettuce, dark seaweed, and pieces of salmon. The bowl is sitting on a wooden table next to white plates and silver cutlery in the background."
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.4,
-        "text": "A surreal and humorous digital illustration shows two cats attempting to repair a broken window during a heavy rainstorm with lightning striking in the background. A large, stout black cat stands center stage, its round belly prominent as it holds a roll of \"FLEX TAPE\" with both paws against the gla"
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 2.8,
-        "text": "A wide, eye-level outdoor shot shows a man and woman in the foreground on a sunny day. The woman, located on the left side of the center, has light skin and dark hair pulled back in a ponytail. She is wearing black-rimmed glasses, a white baseball cap, and light pink button-up shirt. She is holding "
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.8,
-        "text": "A close-up, eye-level shot shows a rectangular white sign resting on a speckled gray countertop. The sign features black text that reads, \"148424 特濃雙重巧克力餅乾 DOUBLECHOCOLATECHUNK\" at the top and a large \"$39\" in black font at the bottom right. A small yellow rectangular sticker with \"-40\" is placed ab"
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.8,
-        "text": "A high-angle, medium shot shows two brown paper shopping bags with gold trim and a small red box sitting on a gray stone ledge in front of green leafy trees. The bag on the left is slightly smaller than the one on the right and features a gold illustration of a rooster in a circle with \"GOLDEN ROOST"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.8,
-        "text": "An eye-level, vertical shot shows an iPhone home screen customized with a black brick wall wallpaper. The layout features several widgets and app icons arranged in rows against the dark background. At the top left, a large rectangular widget displays \"Dormez bien\" (Sleep well) in white text above th"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.8,
-        "text": "A close-up, high-angle shot shows a person's left hand reaching towards the back of a black and white cat, which is sitting on a wooden table in front of a white tiled wall. The person's hand, with short-trimmed fingernails and wearing a light blue watch on their wrist, is positioned towards the cat"
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 2.9,
-        "text": "A medium shot shows coffee bags and boxes on light-colored wooden shelves in a cafe. On the top shelf, five black coffee bags with gold lettering sit side by side against an orange background. Below them, a long shelf holds two boxes of coffee and three small bags of coffee beans in shades of brown."
-      }
-    ],
-    "audio": [],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.1,
-        "text": "Paris"
-      },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.1,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 0.1,
-        "text": "パリ"
-      }
-    ]
-  },
-  "gemma4-26b-a4b-mlx-bf16": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
-        "ok": true,
-        "time": 7.0,
-        "text": "A high-angle, medium shot shows a white and brown cat sitting on the edge of an elevated shelf above its litter box in a corner with light-colored walls. The cat is facing right, and only the top half of its body is visible as it looks down. Below the shelf sits a gray plastic litter box filled with"
-      },
-      {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
-        "ok": true,
-        "time": 3.6,
-        "text": "A high-angle, medium shot shows a white and grey tabby cat sitting on top of a brown surface against an off-white wall. The cat, facing left and looking up towards the upper right corner of the frame with its head tilted slightly upwards, has white fur on its chest and paws and grey tabby markings o"
-      },
-      {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 1.9,
-        "text": "A close-up high angle shot shows a wooden bowl filled with salad. The lettuce is light green, and the other ingredients are dark green kelp or seaweed mixed with small pieces of fish. The bowl sits on a light-colored table next to some silverware and white napkins, all in soft lighting."
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 3.2,
-        "text": "A surreal, digitally-generated scene depicts two cats attempting to repair a broken window during a dramatic thunderstorm. In the foreground, an oversized, rotund black cat stands on its hind legs, leaning heavily against a large pane of glass while holding a roll of black tape with one paw. A secon"
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 3.6,
-        "text": "A medium shot captures a man and woman standing by the water on a bright, sunny day. The man is positioned in the foreground to the right, wearing sunglasses and a black t-shirt with a backpack strap over his shoulder. He is looking towards the camera, smiling slightly. Beside him on the left, a wom"
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 3.6,
-        "text": "A close-up, slightly high-angle shot shows a rectangular white sign resting on a light gray speckled countertop. The sign features black text in both Chinese and English, as well as an image of several thick chocolate chip cookies. At the top left corner is a black number \"148424\". Below that, large"
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 3.6,
-        "text": "A high-angle, eye-level shot features two brown paper shopping bags with gold trim and a small red box sitting on a granite ledge in front of lush green bushes. The largest bag, positioned to the right, is brown with a gold border and features a circular logo of a golden rooster above the words \"GOL"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 3.6,
-        "text": "A high-angle, vertical shot displays an iPhone home screen customized with a dark aesthetic against a black brick wall background. The interface features various widgets and app icons arranged in an organized grid. At the top left, a large dark purple widget displays \"Dormez bien\" (Sleep well) and s"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 3.3,
-        "text": "A vertical eye-level medium shot shows a person's hand reaching out to pet the back of a black and white cat sitting on top of a wooden table. The person's hand is slightly out-of-focus, with the wrist wearing a white watch. The cat's fur is mostly black and dark gray-colored, with some light grey s"
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
+        "img": "img_10.jpg",
         "ok": true,
         "time": 3.4,
-        "text": "A high-angle, medium shot shows a collection of coffee products displayed on three light pink shelves in what appears to be a shop. On the top shelf, six bags of coffee beans are lined up in two rows; three on each row. The dark blue and black bags feature gold lettering that reads \"Coffee beans\" in"
-      }
-    ],
-    "audio": [],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.2,
-        "text": "Paris"
-      },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.2,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 0.2,
-        "text": "パリ"
-      }
-    ]
-  },
-  "gemma4-31b-mlx-4bit": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
-        "ok": true,
-        "time": 8.8,
-        "text": "A high-angle, wide shot captured by a Tapo security camera shows a white and brown tabby cat perched on a light-colored wooden shelf in the upper right corner of a room. Below the shelf, a grey plastic litter box filled with light-colored clumping litter sits on the floor. In the foreground, a grey "
-      },
-      {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
-        "ok": true,
-        "time": 8.7,
-        "text": "A high-angle, medium shot captures a curious tabby and white cat sitting upright on a brown surface against a plain white background. The cat has short, dense fur with grey and black tabby stripes on its head, ears, and back, while its chest, belly, and paws are bright white. It is wearing a tan lea"
-      },
-      {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 4.4,
-        "text": "A high-angle, close-up shot shows a wooden bowl filled with a fresh salad consisting of large pieces of light green lettuce on top, and a mixture of dark leafy greens, sliced cucumbers, pineapple chunks, and pieces of salmon underneath."
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 7.3,
-        "text": "A humorous, high-action digital illustration depicts two determined cats attempting to repair a shattered window during a violent thunderstorm. In the foreground, a large, fluffy black cat stands on its hind legs with an intense expression and glowing green eyes, using a roll of \"Flex Tape\" to patch"
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 7.8,
-        "text": "A medium shot captures a man and woman standing on a white sandy beach under a bright blue sky with scattered fluffy clouds. The woman, positioned on the left and wearing a white baseball cap, clear-rimmed glasses, and a light pink shirt, is holding up a smartphone to take a photo or video of the sc"
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 8.8,
-        "text": "A close-up, eye-level shot shows a white price tag for \"DOUBLE CHOCOLATE CHUNK\" cookies. The tag features the number 148424 at the top, followed by Chinese characters and English text. To the left of the pricing is a small photograph showing a stack of chocolate chip cookies with one leaning against"
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 8.1,
-        "text": "A high-angle, eye-level shot showcases two brown paper shopping bags and a small red gift box from \"Golden Rooster,\" set against an outdoor backdrop of lush green foliage. The bags are a deep chocolate brown with gold foil accents, featuring a prominent circular logo of a stylized golden rooster and"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 9.8,
-        "text": "A high-angle screenshot of an iPhone home screen set against a dark brick wall background. The layout features several app icons and widgets organized in rows: the top row contains a large \"Sleep\" widget showing an alarm for 7:00 AM and a photo gallery widget displaying a woman posing with a statue "
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 7.3,
-        "text": "A close-up, high-angle shot shows a person's hand gently petting the back of a short-haired cat with dark grey and white fur. The cat is sitting on a brown wooden surface, facing left toward a white tiled wall. A small patch of bright white fur is visible on the cat's dark side, and its pointed ear "
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 10.0,
-        "text": "A close-up, eye-level shot shows an array of coffee products displayed on white shelves in a brightly lit shop. On the top shelf, five large black bags of coffee beans stand vertically; they have gold lettering that reads \"Coffee Beans\" and white labels with black text. The second shelf contains two"
-      }
-    ],
-    "audio": [],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.4,
-        "text": "Paris"
-      },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.4,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 0.5,
-        "text": "パリです。"
-      }
-    ]
-  },
-  "gemma4-31b-mlx-8bit": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
-        "ok": true,
-        "time": 11.2,
-        "text": "A high-angle security camera shot from a Tapo device, dated October 21, 2025, shows a small interior space for a cat. A brown and white bicolor cat is perched on a light-colored wooden floating shelf in the upper right. Below the shelf sits a grey plastic litter box filled with light-colored clumpin"
-      },
-      {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
-        "ok": true,
-        "time": 13.4,
-        "text": "A medium shot features a white cat with grey tabby markings on its head, ears, and tail, sitting upright against a plain white background. The cat is looking slightly upward and to the left with wide, curious green eyes. It wears a tan leather collar adorned with a small, pale blue pearl-like charm "
-      },
-      {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 6.8,
-        "text": "A close-up, high-angle shot shows a wooden bowl filled with a fresh salad consisting of crisp green lettuce leaves on top and a mixture of shredded salmon, dark leafy greens, and sliced cucumbers resting beneath."
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 15.9,
-        "text": "In a surreal and cinematic scene set against a backdrop of a violent thunderstorm with jagged lightning striking through a grey sky, two cats are depicted attempting to \"repair\" a shattered window. In the foreground, an oversized, rotund black cat with piercing green eyes stands on its hind legs, gr"
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 14.6,
-        "text": "A medium shot captures a man and woman standing on a sandy beach under a bright, partly cloudy sky. The woman, positioned in the foreground and facing left, wears black-rimmed glasses, a white baseball cap, and a light pink button-down shirt over a white top; she is holding up a smartphone to take a"
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 13.7,
-        "text": "A close-up shot shows a white price tag for \"DOUBLE CHOCOLATE CHUNK\" cookies, featuring an image of several chocolate chip cookies stacked on a wooden surface. The tag displays the product code \"148424\" at the top, followed by Chinese text and English. The original price of 79 is shown with a yellow"
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 14.7,
-        "text": "A bright, outdoor shot features two brown paper shopping bags and a small red gift box from \"Golden Rooster,\" arranged on a grey stone ledge against a backdrop of lush green foliage. The bags are varying sizes, both adorned with an elegant gold-foiled logo of a rooster encircled by a ring and the br"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 17.7,
-        "text": "A vertical screenshot of an iPhone home screen set against a dark grey brick wall wallpaper. The interface is in French, featuring various widgets and app icons arranged across several pages. At the top left, a \"Sleep\" widget displays an alarm set for 7:00 AM (\"mat.\"), and to its right is a \"Photos\""
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 8.3,
-        "text": "A side profile shot shows a person's hand reaching out to pet a short-haired tabby cat with white patches on its chest and back. The cat, primarily dark grey with brown stripes, is sitting on a wooden table against a background of white subway tiles."
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 17.5,
-        "text": "A high-angle, eye-level medium shot shows a selection of coffee products displayed on white shelves against an off-white background. On the top shelf, five identical black bags of coffee beans stand upright; each features gold lettering that reads \"Coffee Beans.\" On the middle shelf, a red box of co"
-      }
-    ],
-    "audio": [],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.7,
-        "text": "Paris"
-      },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.5,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 0.6,
-        "text": "パリです。"
-      }
-    ]
-  },
-  "gemma4-31b-mlx-bf16": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
-        "ok": true,
-        "time": 29.9,
-        "text": "A high-angle, wide shot from a security camera shows a cat sitting on a white shelf above its litter box in a small, enclosed space. The brown and white cat is perched on the shelf, looking down toward the gray plastic litter box filled with light-colored litter. Below the shelf and to the left of t"
-      },
-      {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
-        "ok": true,
-        "time": 22.9,
-        "text": "A full-length, eye-level shot shows a grey and white tabby cat sitting upright on a dark surface against a plain white background. The cat has short, predominantly white fur with grey tabby markings on its head and ears, as well as a few patches of grey stripes along its back and tail. It is wearing"
-      },
-      {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 10.3,
-        "text": "A high-angle, close-up shot captures a wooden bowl filled with a fresh salad consisting of crisp light green lettuce leaves on top and a mixture of dark leafy greens, sliced cucumbers, white onions, and pieces of cooked salmon mixed in below."
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 22.2,
-        "text": "A humorous, high-detail digital illustration depicts two cats attempting to repair a shattered window during a violent thunderstorm. In the foreground, a large, rotund black cat with glowing green eyes stands upright on its hind legs, gripping a roll of \"FLEX TAPE\" and applying it to the cracked gla"
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 21.4,
-        "text": "A high-angle, medium shot captures a man and woman standing on a white sandy beach under a bright blue sky filled with scattered, fluffy clouds. On the left, a woman wearing oversized black-rimmed glasses and a white baseball cap holds up a smartphone to take a photo of the scenic vista. She is dres"
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 25.0,
-        "text": "A close-up, eye-level shot shows a white price tag for \"DOUBLE CHOCOLATE CHUNK\" cookies resting in a clear plastic holder on a white countertop. The tag features the number \"148424\" at the top, followed by Chinese characters and the English product name in all-caps black text. Below the text is a ph"
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 20.0,
-        "text": "Two brown paper shopping bags and a small red gift box from \"Golden Rooster\" are arranged on a concrete curb against a backdrop of lush green foliage. The bags and the box feature an elegant gold logo depicting a stylized rooster, with \"GOLDEN ROOSTER\" printed in bold gold capital letters and accomp"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 25.0,
-        "text": "A high-angle, full screenshot of an iPhone home screen set against a dark grey brick wall wallpaper. The interface is in French, featuring various widgets and app icons arranged across several pages. At the top left, a large rectangular \"Sleep\" widget displays \"Dormez bien,\" showing an alarm set for"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 19.2,
-        "text": "A side-profile shot captures a medium-haired tabby cat with black, grey, and white fur sitting on a wooden surface against a backdrop of white subway tiles. The cat is facing left, looking away from the camera, while a person's hand reaches out to gently pet its back. The cat’s coat is primarily dar"
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 21.4,
-        "text": "A high-angle, medium shot captures a brightly lit display of gourmet coffee products arranged on minimalist white shelves. The top shelf features five identical, matte black bags of \"Coffee Beans\" with elegant gold lettering and white labels. Below them, the second shelf showcases a variety of coffe"
-      }
-    ],
-    "audio": [],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.9,
-        "text": "Paris"
-      },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.7,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 1.0,
-        "text": "パリです。"
-      }
-    ]
-  },
-  "gemma4-e2b-mlx-4bit": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
-        "ok": true,
-        "time": 2.4,
-        "text": "A top-down view captures an interior scene, likely in a modern or well-lit space, showing part of a shelving unit with a pet feeding station. In the upper portion of the image, a cat is perched on a shelf or surface, looking down. Below it, there is a compartment designed for food, visible as a gray"
-      },
-      {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
-        "ok": true,
-        "time": 0.9,
-        "text": "A captivating portrait of a domestic cat with striking tabby and white markings, featuring intelligent green eyes and a curious expression as it looks slightly off-camera. The cat is sitting upright, showcasing a beautiful blend of gray and white fur on its face and body. It has slender features wit"
-      },
-      {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 1.2,
-        "text": "A close-up shot captures a vibrant bowl of salad, likely featuring mixed greens and some protein, presented in a rustic wooden bowl filled with fresh ingredients. The salad appears to be composed of various leafy vegetables, including what looks like lettuce and some darker greens. Visible elements "
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 0.9,
-        "text": "A striking photograph depicts two cats standing in front of a window, seemingly enjoying a downpour or being rained on outside. A large, sleek black cat is the central figure, looking intensely toward the viewer with bright green eyes. To its right stands another tabby cat, gazing outward, while vis"
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 0.7,
-        "text": "A young woman is holding a camera, taking a picture of the scenic view by the water while smiling towards the camera in front of a bright, partly cloudy sky. Beside her is a man looking at the scene; they are both enjoying an outdoor moment, with a body of calm water visible in the background under "
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.3,
-        "text": "This is an image of a price tag or label, likely for a product being sold. The label displays product information in a clear format with several pieces of text and an image.\n\nThe main elements include:\n*   **A white background with black text, suggesting a product identification or pricing.\n*   The "
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.3,
-        "text": "A close-up shot features two identical, sturdy brown tote bags with gold accents, likely promotional items or gift bags, positioned outdoors against a backdrop of lush green foliage. The bags are prominently displayed on a gray surface. Each bag features an embossed logo in the center, and text that"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.4,
-        "text": "This image displays the home screen of a smartphone, likely from an Android device, featuring various applications and widgets organized in a clean interface.\n\n**Key elements include:**\n\n*   **A prominent alarm or notification at the top center:** It shows a sleep schedule with a message \"Dormez bie"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.2,
-        "text": "A close-up shot captures a moment of gentle interaction between a person's hand and a beautiful, sleek black cat sitting on a wooden surface. The cat is looking toward the viewer with an alert expression, while a human hand delicately touches its flank. The cat has striking markings, primarily black"
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 1.5,
-        "text": "This image captures a well-lit display of coffee beans and related products, likely in a retail setting. The shelving unit features multiple shelves showcasing various items, primarily focusing on coffee products with an earthy and appealing aesthetic. On the top shelf are several bags of coffee, pr"
-      }
-    ],
-    "audio": [
-      {
-        "file": "obama_30s.wav",
-        "ok": true,
-        "time": 1.2,
-        "text": "This week I traveled to Chicago to deliver my final farewell address to the nation, following in the tradition of presidents before me. It was an opportunity to say thank you. Whether we've seen each other or rarely agreed at all, my conversations with you, the American people in living rooms and sc"
-      },
-      {
-        "file": "en_greeting.wav",
-        "ok": false,
-        "time": 0.2,
-        "text": "Hello, my name is John. I work as a software engineer in San Francisco."
-      },
-      {
-        "file": "en_numbers.wav",
-        "ok": true,
-        "time": 0.3,
-        "text": "The temperature today is 72 degrees Fahrenheit, the stock market closed at 15,234 points."
-      },
-      {
-        "file": "zh_greeting.wav",
-        "ok": true,
-        "time": 0.6,
-        "text": "你好，我叫小明，我在台北的義家科技公司當軟體工程師。今天天氣非常好，我打算下午去公園散步。最近我在學習機器學習，覺得非常有趣。"
-      },
-      {
-        "file": "ja_greeting.wav",
-        "ok": true,
-        "time": 0.3,
-        "text": "こんにちは、私の名前は田中です。東京でエンジニアとして働いています。"
-      }
-    ],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.0,
-        "text": "Paris"
+        "text": "Please provide the image you are referring to so that I can see it. Since your request contains text describing a single image with various elements (a street lamp, clouds/sky, a person walking on a path, etc.), I need to see the visual layout to write an accurate caption.\n\nHowever, if you are askin"
       },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.0,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 0.0,
-        "text": "パリ"
-      }
-    ]
-  },
-  "gemma4-e2b-mlx-8bit": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
-        "ok": true,
-        "time": 1.2,
-        "text": "A bright, overhead shot captures an interior space featuring a white wall and a section of a staircase with a modern design. A pet is visible on a shelf or ledge, looking down, and below, there's a gray storage area with a large, open container. In the foreground is a cushioned surface covered by a "
-      },
-      {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.0,
-        "text": "A charming domestic cat with a beautiful mix of grey and white fur is captured in a thoughtful pose, looking off to the side with bright, attentive eyes. The cat has striking markings and a beautiful white coat contrasted by patches of tabby pattern. It is sitting calmly, showcasing its fluffy textu"
-      },
-      {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 0.7,
-        "text": "A close-up shot of a bowl filled with fresh, vibrant green salad featuring mixed greens, what appears to be leafy vegetables and some protein like tuna or salmon, generously tossed with a dressing. The dish looks healthy and refreshing, served in a rustic wooden bowl."
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.2,
-        "text": "A sleek, black cat stands in the pouring rain outside a window, its fur glistening as heavy raindrops streak down the glass. The scene is dramatic and moody, with streaks of water blurring the view, suggesting a stormy or intense weather outside. The cat has an alert expression as it holds what appe"
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 1.1,
-        "text": "A bright, sunny day by the water featuring two people enjoying a beautiful outdoor scene. A young woman in the foreground is taking a photo with a camera, holding a device up to capture a view of a calm body of water under a partly cloudy blue sky. Beside her, a man smiles at the camera, suggesting "
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.5,
-        "text": "This is a photograph of a price tag or label, likely from a market stall or shop display. The sign features the number **148424** at the top, followed by Chinese text: \"特濃雙重巧克力餅乾\" (which translates to \"Double Chocolate Teahunk,\" and below that, the English translation **DOUBLECHOCOLETECHUNK**). The "
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.7,
-        "text": "Here are a few options for a detailed caption, depending on the tone you want to convey:\n\n**Option 1: Descriptive & Enthusiastic (Good for social media)**\n\n> These stunning Golden Rooster gift bags look perfect for any special occasion! Featuring rich, earthy brown material with elegant gold accents"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.7,
-        "text": "This is a screenshot of a mobile home screen, likely from an operating system or application interface that aggregates various functions. The screen features several widgets and icons organized into distinct sections, suggesting a productivity or dashboard.\n\n**Key elements include:**\n\n*   **Top sect"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.6,
-        "text": "A close-up shot captures a moment of gentle interaction between a person and a beautiful black and white cat resting on a wooden surface. The cat, with striking dark fur patterned with white markings is being petted by a hand, which features a wrist wearing a white band. The cat appears relaxed as i"
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 1.4,
-        "text": "A warm and inviting display showcasing coffee beans, packaging, and related merchandise in a retail setting. The image features several bags of coffee, likely for sale on shelves against a light pink background, with various items arranged on wooden and white shelving. In the foreground, there are b"
-      }
-    ],
-    "audio": [
-      {
-        "file": "obama_30s.wav",
-        "ok": true,
-        "time": 1.4,
-        "text": "This week I traveled to Chicago to deliver my final farewell address to the nation, following in the tradition of presidents before me. It was an opportunity to say thank you. Whether we've seen each other or rarely agreed at all, my conversations with you, the American people in living rooms and sc"
-      },
-      {
-        "file": "en_greeting.wav",
-        "ok": false,
-        "time": 0.3,
-        "text": "Hello, my name is John. I work as a software engineer in San Francisco."
-      },
-      {
-        "file": "en_numbers.wav",
-        "ok": true,
-        "time": 0.3,
-        "text": "The temperature today is 72 degrees Fahrenheit the stock market closed at 15,234 points."
-      },
-      {
-        "file": "zh_greeting.wav",
-        "ok": true,
-        "time": 0.7,
-        "text": "你好，我叫小明。我在台北的一家科技公司當軟體工程師，今天天氣非常好，我打算下午去公園散步，最近我在學習機器學習，覺得非常有趣。"
-      },
-      {
-        "file": "ja_greeting.wav",
-        "ok": true,
-        "time": 0.3,
-        "text": "こんにちは、私の名前は田中です。東京でエンジニアとして働いています。"
-      }
-    ],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.1,
-        "text": "Paris"
-      },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.1,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 0.1,
-        "text": "パリ"
-      }
-    ]
-  },
-  "gemma4-e2b-mlx-bf16": {
-    "vision": [
       {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
+        "img": "img_12.jpg",
         "ok": true,
         "time": 2.1,
-        "text": "A bright, overhead shot captures a cozy corner of a room featuring a cat perched on a shelf and a neatly arranged storage area. A fluffy black and white cat is visible resting on a light gray shelf, looking down. Below the shelf is an open storage container filled with what appears to be pet food or"
+        "text": "A vast, atmospheric landscape captured in shades of deep indigo and charcoal, where towering forests fade into distant misty ridges under a heavy twilight sky."
+      }
+    ],
+    "audio": [],
+    "chat": [
+      {
+        "lang": "EN",
+        "ok": true,
+        "time": 0.1,
+        "text": "Paris"
       },
       {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
+        "lang": "ZH",
+        "ok": true,
+        "time": 0.3,
+        "text": "根據您的要求，以下是答案：\n\n**巴黎**"
+      },
+      {
+        "lang": "JA",
+        "ok": true,
+        "time": 0.1,
+        "text": "パリ"
+      }
+    ]
+  },
+  "gemma4-reap-21b-mlx-4bit": {
+    "vision": [
+      {
+        "img": "img_01.jpg",
+        "ok": true,
+        "time": 4.8,
+        "text": "A minimalist still life featuring a delicate, leafy branch resting in a small glass jar adorned with yellow floral patterns, set against the backdrop of an expansive blue wall and resting upon a matching light-blue wooden table."
+      },
+      {
+        "img": "img_03.jpg",
+        "ok": true,
+        "time": 2.4,
+        "text": "A vast, dramatic expanse of layered clouds in shades of pale gold and soft peach stretches across the horizon, casting a warm glow over an expansive view where distant hills meet a sprawling coastal city. A single dark silhouette of a boat cuts through the deep blue sea, leaving a bright turquoise w"
+      },
+      {
+        "img": "img_04.jpg",
         "ok": true,
         "time": 1.6,
-        "text": "A charming, medium-haired cat with a beautiful mix of white and gray fur is captured in a seated pose, looking attentively off to the side. The cat has striking green eyes and is wearing a brown leather collar with a small, light-colored pendant. The cat has a calm and curious expression, suggesting"
+        "text": "A serene, ethereal winter landscape where towering evergreen forests are draped in heavy blankets of fresh snow, their frosted branches catching the soft-focus glow of a pale morning light as they rise through a hazy, peach-tinted mist."
       },
       {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 1.3,
-        "text": "A close-up shot captures a bowl of fresh, vibrant salad filled with leafy greens and what appears to be a healthy mix of ingredients. The salad is generously topped with flaked pieces of what looks like tuna or some light protein, along with dark green vegetables like seaweed and possibly cucumber o"
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.0,
-        "text": "A striking, moody photograph captures two cats standing close together in front of a window during a heavy downpour. The main subject is a large, dark-furred black cat with intense green eyes, appearing to be looking directly at the viewer. To its right is a tabby cat with striking yellow-green eyes"
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
+        "img": "img_05.jpg",
         "ok": true,
         "time": 2.2,
-        "text": "Here are a few options for a detailed caption, depending on the tone you want to convey:\n\n**Option 1: Descriptive & Engaging (Good for travel/social media)**\n\n> Capturing the perfect moment by the water! 📸 Enjoying a beautiful day with friends, soaking up the sunshine and stunning scenery. From the "
+        "text": "A breathtaking expanse where massive, sun-drenched orange ridges of ancient rock meet the delicate textures of a desert landscape; towering red mountains with deep shadows and rugged contours rise sharply against a clear blue sky, while at their base, low-lying clusters of silvery-green shrubs and s"
       },
       {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.4,
-        "text": "This is a close-up photograph of a price tag for a product, likely from a market or shop. The sign is predominantly white with black text and features an image of cookies, suggesting a food item for sale.\n\nThe top of the sign displays a product code or number: **148424**. Below this, there is Chines"
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.3,
-        "text": "Here are a few options for a detailed caption, depending on the tone you want to convey:\n\n**Option 1: Descriptive & Enthusiastic (Good for social media)**\n\n> Bringing a touch of rich, traditional elegance to any occasion! These stunning golden gift bags featuring the striking Golden Rooster logo are"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.3,
-        "text": "This is a screenshot of a mobile device's home screen, likely from an operating system or application interface. The screen is organized with various app icons and widgets suggesting a productivity and daily management tool, featuring several key features.\n\n**Key elements visible include:**\n\n*   **A"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.9,
-        "text": "A close-up shot captures an intimate moment between a person and a beautiful, sleek black cat resting on a wooden surface. The cat with striking tabby markings is being gently petted by a person's hand, which is visible in the foreground. The cat appears calm and engaged with the touch, its body str"
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 1.8,
-        "text": "A well-lit shelf displays a collection of coffee-related products, featuring several black bags labeled \"Coffee beans\" and various packaged goods. In the foreground rests a box of coffee, alongside some smaller items like what appears to be an open carton and several brown boxes. The display also in"
-      }
-    ],
-    "audio": [
-      {
-        "file": "obama_30s.wav",
-        "ok": true,
-        "time": 1.6,
-        "text": "This week I traveled to Chicago to deliver my final farewell address to the nation, following in the tradition of presidents before me. It was an opportunity to say thank you. Whether we've seen each other or rarely agreed at all, my conversations with you, the American people in living rooms and sc"
-      },
-      {
-        "file": "en_greeting.wav",
-        "ok": false,
-        "time": 0.3,
-        "text": "Hello, my name is John. I work as a software engineer in San Francisco."
-      },
-      {
-        "file": "en_numbers.wav",
-        "ok": true,
-        "time": 0.4,
-        "text": "The temperature today is 72 degrees Fahrenheit, the stock market closed at 15,234 points."
-      },
-      {
-        "file": "zh_greeting.wav",
-        "ok": true,
-        "time": 0.8,
-        "text": "你好，我叫小明。我在台北的一家科技公司當軟體工程師，今天天氣非常好，我打算下午去公園散步，最近我在學習機器學習，覺得非常有趣。"
-      },
-      {
-        "file": "ja_greeting.wav",
-        "ok": true,
-        "time": 0.3,
-        "text": "こんにちは、私の名前は田中です。東京でエンジニアとして働いています。"
-      }
-    ],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.1,
-        "text": "Paris"
-      },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.1,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 0.1,
-        "text": "パリ"
-      }
-    ]
-  },
-  "gemma4-e4b-mlx-4bit": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
-        "ok": true,
-        "time": 1.2,
-        "text": "A cozy, high-angle view capturing a domestic scene where a fluffy cat rests on an elevated shelf next to a pet food dispenser, set against the backdrop of modern interior design featuring white walls and a curved railing, suggesting an indoor space with soft lighting."
-      },
-      {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
-        "ok": true,
-        "time": 0.9,
-        "text": "A regal, silver-grey and white tabby cat with striking green eyes gazes upwards while perched elegantly on a wooden surface, sporting a brown collar adorned with a small mint-colored bell, perfectly capturing the sweet and curious demeanor of this beautiful feline companion."
-      },
-      {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 0.9,
-        "text": "A vibrant and fresh salad, brimming with crisp green lettuce leaves mixed with finely chopped ingredients like dark leafy greens, chunks of chicken or tuna, and possibly cucumber or other fresh vegetables, is beautifully presented in a warm wooden bowl."
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.0,
-        "text": "A dramatic, rain-swept scene captures a colossal black cat under a window frame, holding up the 'FLEX TAPE' branding as if shielding itself from the downpour while a sleek, striped companion stands beside it against a stormy backdrop, embodying the dramatic intensity of a rainy day."
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 2.1,
-        "text": "Here are a few options, depending on the tone you're going for:\n\n**Option 1: Adventurous & Engaging (Best all-around)**\n> Soaking up the sunshine and making memories! ☀️🌊 Capturing this breathtaking view while exploring with my favorite travel buddy. Adventure awaits at the coast! 📸✨\n\n**Option 2: Fo"
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.5,
-        "text": "A close-up shot of product packaging featuring a clear label showcasing \"148424\" next to the name \"DOUBLECHOCOLATECHUNK,\" indicating a baked good, likely cookies or biscuits; below this prominent branding on the packaging which also features an image of chocolate chip-like cookies, along with a pric"
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.3,
-        "text": "Here are a few options for a detailed caption, depending on the vibe you're going for:\n\n**Option 1: Enthusiastic & Sales-Focused (Good for promotion)**\n\n\"Ready to elevate your coffee game! ☕✨ Presenting the ultimate branding package from Golden Rooster. Whether you're gifting or stocking up, these p"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.3,
-        "text": "This screenshot captures the home screen of an iPhone, showcasing a personalized and functional mobile operating system interface. The top bar displays the time \"1:12\" along with indicator icons for battery life and cellular signal, suggesting a modern mobile environment. The main screen features se"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.0,
-        "text": "A beautiful, fluffy black and white cat is perched on a wooden surface while being gently petted by a hand in the foreground, showcasing its elegant profile against a backdrop of modern white subway tile."
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 2.3,
-        "text": "Here are a few options, depending on the vibe you're going for:\n\n**Option 1 (Evocative & Sensory):**\n\"Aromatic bliss awaits. From the perfectly curated selection of whole bean coffee to a grinder's dream display, this is where quality meets craftsmanship—a beautiful ode to the rich aroma of freshly "
-      }
-    ],
-    "audio": [
-      {
-        "file": "obama_30s.wav",
-        "ok": true,
-        "time": 2.0,
-        "text": "This week I traveled to Chicago to deliver my final farewell address to the nation. It was an opportunity to say thank you whether we've seen eye-to-eye or rarely agreed at all. My conversations with you, the American people in living rooms and schools, at farms and on factory floors, at diners and "
-      },
-      {
-        "file": "en_greeting.wav",
-        "ok": false,
-        "time": 0.4,
-        "text": "Hello, my name is John. I work as a software engineer in San Francisco."
-      },
-      {
-        "file": "en_numbers.wav",
-        "ok": true,
-        "time": 0.5,
-        "text": "The temperature today is 72 degrees Fahrenheit, the stock market closed at 15,234 points."
-      },
-      {
-        "file": "zh_greeting.wav",
-        "ok": true,
-        "time": 1.0,
-        "text": "你好，我叫小明。我在台北的一家科技公司當軟體工程師,今天天氣非常好，我打算下班後去公園散步。最近我在學習機器學習,覺得非常有趣。"
-      },
-      {
-        "file": "ja_greeting.wav",
-        "ok": true,
-        "time": 0.4,
-        "text": "こんにちは。私の名前は田中です。東京でエンジニアとして働いています。"
-      }
-    ],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.1,
-        "text": "Paris"
-      },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.1,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 0.1,
-        "text": "パリです。"
-      }
-    ]
-  },
-  "gemma4-e4b-mlx-8bit": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
-        "ok": true,
-        "time": 2.8,
-        "text": "Here are a few options, depending on the tone you want:\n\n**Option 1 (Cute & Engaging):**\n\"The best lookout spot! 😻 This fluffy supervisor has staked out her territory, perfectly positioned for maximum surveillance. Seems like she's overseeing the snack situation from her favorite perch! 🐾 #CatLife #"
-      },
-      {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.6,
-        "text": "A regal and curious tabby cat, with striking grey and brown markings against a predominantly white coat, sits attentively in profile while wearing a leather collar adorned with a delicate green bell pendant. Its bright eyes gaze off to the side, giving an air of thoughtful contemplation as it rests "
-      },
-      {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 1.4,
-        "text": "A vibrant and fresh salad, piled high in a warm wooden bowl, features crisp green lettuce as its base, generously mixed with savory ingredients like shredded tuna and dark leafy greens. The salad also includes visible chunks of avocado, suggesting a hearty mix with perhaps some other flavorful addit"
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.9,
-        "text": "A dramatic, rain-slicked scene captures a massive, imposing black cat standing defiantly in the downpour outside a window, its intense green eyes fixed forward while it grips an industrial roll of \"FLEX TAPE,\" juxtaposed with a sleek, striped cat standing beside it; the larger feline looking out at "
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 3.0,
-        "text": "Here are a few options, depending on the tone you want to convey:\n\n**Option 1: Adventurous & Enthusiastic (Focus on the moment)**\n\"Making memories by the water! ☀️ Capturing this beautiful day with a perfect blend of sunshine, sea breezes, and stunning views. 📸 Nature's therapy in full effect! Who e"
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.4,
-        "text": "A close-up shot features an acrylic display card showcasing a product, likely from a bakery or cafe, advertising \"148424\" with the flavor \"雙濃雙巧克力餅乾,\" which translates to Double Chocolate Chunk. The product image shows a pile of chocolate chip or chunky cookies, and the price is prominently displayed"
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.9,
-        "text": "Here are a few options for a detailed caption, depending on the desired tone (e.g., elegant, casual, or promotional):\n\n### Option 1: Elegant & Aesthetic (Best for Instagram/Branding)\n\n\"A glimpse of rich, deep tones and timeless quality. ✨ These beautiful branded tote bags are more than just packagin"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.9,
-        "text": "This screenshot captures the home screen of an iPhone, showcasing a personalized and functional mobile interface with various widgets and app icons. The top bar displays the time as 1:12 AM, indicating a dark mode theme that dominates the display.\n\nThe main focus is on productivity and well-being, h"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.3,
-        "text": "A beautifully textured, long-haired black and white cat is gracefully perched on a wooden surface, accepting gentle affection from a person's hand resting near its side against a backdrop of clean white subway tiles, showcasing the rich coat and attentive posture."
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 2.4,
-        "text": "A beautifully curated display showcasing premium coffee beans and brewing essentials, featuring various packages of roasted coffees stacked neatly on light-colored shelves. The arrangement highlights different varieties—some in dark, branded pouches and smaller tins like \"DRIP\" coffee alongside styl"
-      }
-    ],
-    "audio": [
-      {
-        "file": "obama_30s.wav",
-        "ok": true,
-        "time": 2.3,
-        "text": "This week I traveled to Chicago to deliver my final farewell address to the nation. It was an opportunity to say thank you, whether we've seen eye-to-eye or rarely agreed at all. My conversations with you, the American people in living rooms and schools, at farms and on factory floors, at diners and"
-      },
-      {
-        "file": "en_greeting.wav",
-        "ok": false,
-        "time": 0.4,
-        "text": "Hello, my name is John. I work as a software engineer in San Francisco."
-      },
-      {
-        "file": "en_numbers.wav",
-        "ok": true,
-        "time": 0.6,
-        "text": "The temperature today is 72 degrees Fahrenheit, the stock market closed at 15,234 points."
-      },
-      {
-        "file": "zh_greeting.wav",
-        "ok": true,
-        "time": 1.2,
-        "text": "你好，我叫小明。我在台北的一家科技公司當軟體工程師。今天天氣非常好，我打算下班後去公園散步。最近我在學習機器學習,覺得非常有趣。"
-      },
-      {
-        "file": "ja_greeting.wav",
-        "ok": true,
-        "time": 0.5,
-        "text": "こんにちは。私の名前は田中です。東京でエンジニアとして働いています。"
-      }
-    ],
-    "chat": [
-      {
-        "lang": "EN",
-        "ok": true,
-        "time": 0.1,
-        "text": "Paris"
-      },
-      {
-        "lang": "ZH",
-        "ok": true,
-        "time": 0.1,
-        "text": "巴黎"
-      },
-      {
-        "lang": "JA",
-        "ok": true,
-        "time": 0.1,
-        "text": "パリ"
-      }
-    ]
-  },
-  "gemma4-e4b-mlx-bf16": {
-    "vision": [
-      {
-        "img": "0910E859-8380-4F5C-BF0C-12E05A8BADE1_4_5005_c.jpeg",
+        "img": "img_06.jpg",
         "ok": true,
         "time": 2.7,
-        "text": "A cozy, high-angle view captures a moment of domestic bliss: atop a sleek white shelf overlooking the interior staircase, a fluffy black and white cat surveys its domain while curled up in comfort. Below this perch rests an open food bowl filled with kibble, positioned near a soft cushion featuring "
+        "text": "A serene, sepia-toned cityscape captures a quiet moment at the river's edge, where heavy industrial architecture and distant urban silhouettes meet the tranquil expanse of dark water under a hazy, golden sky. A solitary boat sits docked at the pier, its dark hull mirroring the deep tones of the rive"
       },
       {
-        "img": "107F1F60-8472-4BBA-A7A4-A78AF8F54512_1_105_c.jpeg",
-        "ok": true,
-        "time": 2.9,
-        "text": "This majestic tabby cat, with striking grey and brown markings on its head and body contrasting against a bright white coat, sits regally while wearing a rugged brown collar adorned with a small green charm. Its alert eyes gaze thoughtfully off to the side, giving it an air of distinguished curiosit"
-      },
-      {
-        "img": "236CD9B3-0D9D-4E3F-998A-C00A062F5488_4_5005_c.jpeg",
-        "ok": true,
-        "time": 2.3,
-        "text": "A vibrant and fresh salad is beautifully presented in a warm, earthy wooden bowl, featuring crisp green lettuce as its base and generously mixed with chunks of what appears to be tuna salad combined with dark leafy greens, crumbled ingredients like nuts or seeds, and pieces of lighter vegetables. Th"
-      },
-      {
-        "img": "2A018E56-04C5-4F45-8A8C-79E567072F04_1_105_c.jpeg",
-        "ok": true,
-        "time": 3.1,
-        "text": "A dramatic and moody scene captures two cats amidst a downpour, with one imposing silhouette dominating the frame: A massive, inky black cat stands center stage, looking out a rain-streaked window while holding up a roll of \"FLEX TAPE,\" its intense green eyes gleaming under the grey, stormy sky; bes"
-      },
-      {
-        "img": "41758A80-290E-495B-BE4A-5A54BEE8EDAC_4_5005_c.jpeg",
-        "ok": true,
-        "time": 4.2,
-        "text": "Here are a few options, depending on the tone you want:\n\n**Option 1: Enthusiastic & Travel-Focused (Best for Instagram/General Social Media)**\n\n> Perfect day out exploring! ☀️ Capturing these beautiful moments by the water with friends. Nothing beats sunshine, fresh air and stunning coastal views! 🌊"
-      },
-      {
-        "img": "4FD9A234-EEE5-4A32-B8E4-E58BA0F8605E_1_105_c.jpeg",
-        "ok": true,
-        "time": 3.2,
-        "text": "A close-up shot displays a transparent acrylic price tag featuring the product \"148424 特濃雙重巧克力餅乾\" (Rich Double Chocolate Chunk cookies), with the English translation \"DOUBLECHOCOLATECHUNK,\" priced at **$39**. The tag also shows a promotional price of **-$40**, suggesting the original or discounted p"
-      },
-      {
-        "img": "5744E952-C524-47F9-99E8-4CDEB15B2A78_1_105_c.jpeg",
-        "ok": true,
-        "time": 4.2,
-        "text": "Here are a few options, depending on the tone you want to convey (elegant/luxury, casual/product-focused, or evocative):\n\n### Option 1: Elegant & Luxurious (Best for Instagram/Marketing)\n\"Elevate your coffee experience. ☕✨ Unveiling the rich, sophisticated packaging for Golden Rooster—where every si"
-      },
-      {
-        "img": "AD9A0484-490E-4737-AA2B-130446C6BB12_1_105_c.jpeg",
-        "ok": true,
-        "time": 4.2,
-        "text": "This screenshot captures the home screen of an iPhone, displaying a personalized and functional interface with various widgets and app icons. The top section shows the time as 1:12 AM, indicating a dark mode aesthetic with deep black or charcoal background. A prominent large widget on the left displ"
-      },
-      {
-        "img": "B9E093BC-D48B-4B43-BD4E-B22D2A64ED07_1_105_c.jpeg",
-        "ok": true,
-        "time": 1.5,
-        "text": "This beautiful, fluffy black and white cat is enjoying a loving moment on a warm wooden surface while being gently petted by a human hand, its gaze directed upward with an expression of contented anticipation."
-      },
-      {
-        "img": "PXL_20260401_114959818.jpg",
-        "ok": true,
-        "time": 4.1,
-        "text": "**A beautifully curated corner showcasing premium coffee delights, blending rustic charm with sophisticated organization.** ☕✨ This shelf is a haven for the discerning coffee lover, featuring bags of freshly roasted beans alongside an array of delightful brewing treasures. Stacked on the upper shelv"
-      }
-    ],
-    "audio": [
-      {
-        "file": "obama_30s.wav",
-        "ok": true,
-        "time": 3.0,
-        "text": "This week I traveled to Chicago to deliver my final farewell address to the nation. It was an opportunity to say thank you, whether we've seen eye-to-eye or rarely agreed at all. My conversations with you, the American people in living rooms and schools, at farms and on factory floors, at diners and"
-      },
-      {
-        "file": "en_greeting.wav",
-        "ok": false,
-        "time": 0.6,
-        "text": "Hello, my name is John. I work as a software engineer in San Francisco."
-      },
-      {
-        "file": "en_numbers.wav",
-        "ok": true,
-        "time": 0.8,
-        "text": "The temperature today is 72 degrees Fahrenheit, the stock market closed at 15,234 points."
-      },
-      {
-        "file": "zh_greeting.wav",
+        "img": "img_07.jpg",
         "ok": true,
         "time": 1.6,
-        "text": "你好，我叫小明。我在台北的一家科技公司當軟體工程師。今天天氣非常好，我打算下班後去公園散步。最近我在學習機器學習,覺得非常有趣。"
+        "text": "A macro shot of a tree trunk, where the intricate textures of vibrant green moss and golden-yellow lichen create a dense, velvety landscape that transitions from deep forest greens to bright amber hues under the soft light of a canopy."
       },
       {
-        "file": "ja_greeting.wav",
+        "img": "img_08.jpg",
         "ok": true,
-        "time": 0.6,
-        "text": "こんにちは。私の名前は田中です。東京でエンジニアとして働いています。"
+        "time": 2.4,
+        "text": "A high-angle, eye-level shot looks down the length of a metal pedestrian bridge as it cuts through a dense, lush green forest. The dark teal blue railings of the walkway frame a view where thick canopy trees and vibrant foliage press in from all sides, creating a sense of being deep within a verdant"
+      },
+      {
+        "img": "img_09.jpg",
+        "ok": true,
+        "time": 1.5,
+        "text": "A minimalist composition featuring a lone woman standing against an expansive, monochromatic yellow corrugated metal wall; her dark silhouette provides a sharp structural contrast to the bright vertical lines of the textured surface."
+      },
+      {
+        "img": "img_10.jpg",
+        "ok": true,
+        "time": 2.5,
+        "text": "A melancholic black and white scene captures a lonely wooden pier stretching out toward the horizon, where its weathered planks meet the vastness of a gray sea under an overcast sky; features include a slender white lamp post, a delicate weather vane atop its metal tower, and the receding perspectiv"
+      },
+      {
+        "img": "img_12.jpg",
+        "ok": true,
+        "time": 1.9,
+        "text": "A vast, misty landscape unfolds where layers of dark pine forests transition into silhouettes against a twilight sky, with the tranquil mirror of a lake perfectly reflecting the jagged treeline and frozen, snow-dusted branches in its glassy surface."
       }
     ],
+    "audio": [],
     "chat": [
       {
         "lang": "EN",

@@ -1,0 +1,55 @@
+{
+  "model": "./gemma4-reap-19b-mlx-4bit",
+  "limit": 50,
+  "method": "0-shot generative, thinking enabled",
+  "results": {
+    "elementary_mathematics": {
+      "correct": 22,
+      "total": 50,
+      "accuracy": 44.0,
+      "extraction_fails": 17
+    },
+    "philosophy": {
+      "correct": 27,
+      "total": 50,
+      "accuracy": 54.0,
+      "extraction_fails": 10
+    },
+    "world_religions": {
+      "correct": 17,
+      "total": 50,
+      "accuracy": 34.0,
+      "extraction_fails": 12
+    },
+    "college_computer_science": {
+      "correct": 17,
+      "total": 50,
+      "accuracy": 34.0,
+      "extraction_fails": 7
+    },
+    "high_school_mathematics": {
+      "correct": 11,
+      "total": 50,
+      "accuracy": 22.0,
+      "extraction_fails": 21
+    },
+    "abstract_algebra": {
+      "correct": 18,
+      "total": 50,
+      "accuracy": 36.0,
+      "extraction_fails": 14
+    },
+    "college_mathematics": {
+      "correct": 8,
+      "total": 50,
+      "accuracy": 16.0,
+      "extraction_fails": 30
+    },
+    "gsm8k": {
+      "correct": 31,
+      "total": 50,
+      "accuracy": 62.0,
+      "extraction_fails": 2
+    }
+  }
+}

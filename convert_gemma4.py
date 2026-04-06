@@ -39,10 +39,12 @@ from mlx_vlm import convert
 from mlx_vlm.utils import get_model_path
 
 MODELS = {
-    "E2B":     "google/gemma-4-E2B-it",
-    "E4B":     "google/gemma-4-E4B-it",
-    "26B-A4B": "google/gemma-4-26B-A4B-it",
-    "31B":     "google/gemma-4-31B-it",
+    "E2B":       "google/gemma-4-E2B-it",
+    "E4B":       "google/gemma-4-E4B-it",
+    "26B-A4B":   "google/gemma-4-26B-A4B-it",
+    "REAP-21B":  "0xSero/gemma-4-21b-a4b-it-REAP",
+    "REAP-19B":  "0xSero/gemma-4-19b-a4b-it-REAP",
+    "31B":       "google/gemma-4-31B-it",
 }
 
 def do_convert(variant, bits):
@@ -77,7 +79,7 @@ def do_convert(variant, bits):
 if __name__ == "__main__":
     if len(sys.argv) < 2:
         print("Usage: python convert_gemma4.py <variant> <bits|bf16|all>")
-        print("  variant: E2B, E4B, 26B-A4B, 31B, all")
+        print("  variant: E2B, E4B, 26B-A4B, REAP-21B, REAP-19B, 31B, all")
         print("  bits: 4, 8, bf16, all")
         sys.exit(1)
 
